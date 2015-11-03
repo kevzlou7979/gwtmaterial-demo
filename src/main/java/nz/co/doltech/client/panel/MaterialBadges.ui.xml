@@ -1,0 +1,71 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui"
+	xmlns:m="urn:import:gwt.material.design.client.ui">
+	<ui:style>
+	
+	</ui:style>
+	<g:HTMLPanel>
+		<m:MaterialTitle title="Collections"/>
+		<m:MaterialCollection>
+		    <m:MaterialCollectionItem>
+				<m:MaterialLink text="Sample 1" >
+					<m:MaterialBadge text="1 new" backgroundColor="blue" textColor="white"/>
+				</m:MaterialLink>
+			</m:MaterialCollectionItem>
+		    <m:MaterialCollectionItem>
+				<m:MaterialLink text="Sample 2" >
+					<m:MaterialBadge text="1 new" backgroundColor="blue" textColor="white"/>
+				</m:MaterialLink>
+			</m:MaterialCollectionItem>
+		    <m:MaterialCollectionItem><m:MaterialLink text="Collecton 3"/></m:MaterialCollectionItem>
+		    <m:MaterialCollectionItem><m:MaterialLink text="Collecton 4"/></m:MaterialCollectionItem>
+		</m:MaterialCollection>
+		
+<pre>
+    &lt;m:MaterialCollection>
+		&lt;m:MaterialCollectionItem>
+			&lt;m:MaterialLink text="Sample 1" >
+				&lt;m:MaterialBadge text="1 new" backgroundColor="blue" textColor="white"/>
+			&lt;/m:MaterialLink>
+		&lt;/m:MaterialCollectionItem>
+		&lt;m:MaterialCollectionItem>
+			&lt;m:MaterialLink text="Sample 2" >
+				&lt;m:MaterialBadge text="1 new" backgroundColor="blue" textColor="white"/>
+			&lt;/m:MaterialLink>
+		&lt;/m:MaterialCollectionItem>
+		&lt;m:MaterialCollectionItem>&lt;m:MaterialLink text="Collecton 3"/>&lt;/m:MaterialCollectionItem>
+		&lt;m:MaterialCollectionItem>&lt;m:MaterialLink text="Collecton 4"/>&lt;/m:MaterialCollectionItem>
+	&lt;/m:MaterialCollection>
+</pre>
+		
+		<m:MaterialTitle title="Badges in Dropdown"/>
+		
+		<!-- Activator -->
+		<m:MaterialButton  text="Dropdown" iconType="ARROW_DROP_DOWN" iconPosition="RIGHT" textColor="white" backgroundColor="blue" activates="dp-4"/>
+		<!-- My Drop Down -->
+		<m:MaterialDropDown name="dp-4" belowOrigin="false" constraintWidth="true">
+			<m:MaterialLink text="First" />
+			<m:MaterialLink text="Second" >
+					<m:MaterialBadge text="1 new" backgroundColor="blue" textColor="white"/>
+			</m:MaterialLink>
+			<m:MaterialLink text="Third" />
+		</m:MaterialDropDown>
+		
+<pre>
+    &lt;!-- Activator -->
+	&lt;m:MaterialButton  text="Dropdown" iconType="ARROW_DROP_DOWN" iconPosition="RIGHT" textColor="white" backgroundColor="blue" activates="dp-4"/>
+	&lt;!-- My Drop Down -->
+	&lt;m:MaterialDropDown name="dp-4" belowOrigin="false" constraintWidth="true">
+		&lt;m:item>&lt;m:MaterialLink text="First" />&lt;/m:item>
+		&lt;m:item>
+			&lt;m:MaterialLink text="Second" >
+			    &lt;m:MaterialBadge text="1 new" backgroundColor="blue" textColor="white"/>
+			&lt;/m:MaterialLink>
+		&lt;/m:item>
+		&lt;m:item>&lt;m:MaterialLink text="Third" />&lt;/m:item>
+	&lt;/m:MaterialDropDown>
+</pre>
+		
+	</g:HTMLPanel>
+</ui:UiBinder> 

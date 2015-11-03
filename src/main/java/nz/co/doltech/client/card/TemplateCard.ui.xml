@@ -1,0 +1,25 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+						 xmlns:m="urn:import:gwt.material.design.client.ui"
+		>
+	<ui:style>
+	
+	</ui:style>
+	<m:MaterialCard ui:field="card" >
+	    <m:MaterialCardImage waves="LIGHT">
+	        <m:MaterialImage ui:field="imgResource"/>
+	    	
+	    </m:MaterialCardImage>
+	            
+		<m:MaterialCardContent textColor="black">
+		    <m:MaterialCardTitle ui:field="lblTitle" textColor="black" />
+			<m:MaterialLabel ui:field="lblDescription" />
+		</m:MaterialCardContent>
+			    
+		<m:MaterialCardAction>
+			<m:MaterialLink ui:field="btnDemo" text="Demo" />
+			<m:MaterialLink ui:field="btnSource" text="Source" />
+		</m:MaterialCardAction>
+		
+	</m:MaterialCard>
+</ui:UiBinder> 

@@ -1,0 +1,71 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+						 xmlns:m="urn:import:gwt.material.design.client.ui"
+		>
+	<ui:style>
+	
+	</ui:style>
+	<m:MaterialRow>
+	    <!-- PREREQUISITES -->
+	    <m:MaterialTitle title="Prerequisite" description="Set first your MaterialNavBar sidebar attribute e.g sidebar='your_sidebar_name' then on MaterialSideNav add your sideBar name e.g sideBar='your_sidebar_name'."/>
+		<pre>
+			CODE
+		</pre>
+
+		<!-- SIDENAV PROPERTIES -->
+		<m:MaterialTitle title="SideNav Properties"/>
+		<blockquote>
+		    <p>width - The width of your desired sidenav</p>
+		    <p>name - The name of your sidenav needed by navbar to activate it.</p>
+		    <p>type - There are 4 Permanent Types (No Nav Menu) [open, float, card, clip] and 2 Persistent Types (With Nav Menu) [close, mini].</p>
+		    <p>closeOnClick - If clicked on the sidemenu items it will be automatically closed if set to true.</p>
+		</blockquote>
+
+	    <!-- OPEN Permanent -->
+	    <m:MaterialTitle title="Open Permanent" description="The sidebar will be visible by default on large screen devices."/>
+		<m:MaterialImage addStyleNames="z-depth-1" url="https://cloud.githubusercontent.com/assets/3138071/10042710/e988f530-61a1-11e5-8e25-71ab5adf9d12.png"/>
+		<pre>
+			CODE
+		</pre>
+	      
+	    <!-- FLOAT PERMANENT -->
+	    <m:MaterialTitle title="Float Permanent" />
+	    <m:MaterialImage addStyleNames="z-depth-1" url="https://cloud.githubusercontent.com/assets/3138071/10065329/1b8c34ec-6239-11e5-9979-18d17224e1aa.png"/>
+		<pre>
+			CODE
+		</pre>
+		<!-- CARD PERMANENT -->
+		<m:MaterialTitle title="Card Permanent" />
+	    <m:MaterialImage addStyleNames="z-depth-1" url="https://cloud.githubusercontent.com/assets/3138071/10065493/bba5e930-623b-11e5-87c8-79dccfdad431.png"/>
+		<pre>
+			CODE
+		</pre>
+
+		<!-- Clip Permanent -->
+		<m:MaterialTitle title="Clip Permanent" />
+	    <m:MaterialImage addStyleNames="z-depth-1" url="https://cloud.githubusercontent.com/assets/3138071/10043407/ad5f3cbc-61a7-11e5-9d73-90a5bc176c58.png"/>
+		<pre>
+			CODE
+		</pre>
+
+	    <!-- MINI Persistent -->
+	    <m:MaterialTitle title="Mini Variant Persistent" />
+	    <m:MaterialImage addStyleNames="z-depth-1" url="https://cloud.githubusercontent.com/assets/3138071/10043841/edc85e3e-61aa-11e5-8f78-0ab2e257befd.gif"/>
+		<pre>
+			CODE
+		</pre>
+		
+		<!-- Close Persistent -->
+		<m:MaterialTitle title="Close Persistent" />
+	    <m:MaterialImage addStyleNames="z-depth-1" url="https://cloud.githubusercontent.com/assets/3138071/10043075/f0355e0c-61a4-11e5-8a1c-367a682a8bec.gif"/>
+		<pre>
+			CODE
+		</pre>
+		
+		<!-- Close Persistent -->
+		<m:MaterialTitle title="Collapsible SideNav" description="Using collapsible component you can add easily a sub menu into your sidenav."/>		
+		
+		
+		
+	</m:MaterialRow>
+</ui:UiBinder> 

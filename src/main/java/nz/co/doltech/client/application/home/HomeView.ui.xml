@@ -1,0 +1,10 @@
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+             xmlns:g="urn:import:com.google.gwt.user.client.ui"
+             xmlns:m="urn:import:gwt.material.design.client.ui"
+             xmlns:w="urn:import:nz.co.doltech.client.widgets"
+             xmlns:p="urn:import:nz.co.doltech.client.panel">
+
+  <g:HTMLPanel ui:field="panel">
+    <p:MaterialDemo />
+  </g:HTMLPanel>
+</ui:UiBinder>
