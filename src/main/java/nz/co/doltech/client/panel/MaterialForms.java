@@ -24,7 +24,7 @@ public class MaterialForms extends Composite {
 	
 	@UiField MaterialListBox lstOptions;
 	@UiField MaterialCheckBox cbBoxAll, cbBox, cbBlue, cbRed, cbCyan, cbGreen, cbBrown;
-	
+
 	@UiField MaterialSwitch switch1, switch2;
 	@UiField MaterialLabel lblSwitch1, lblSwitch2, lblRange;
 	@UiField MaterialRange range;
@@ -33,12 +33,11 @@ public class MaterialForms extends Composite {
 		initWidget(uiBinder.createAndBindUi(this));
 	}
 
-
 	@UiHandler("lstOptions")
 	void onChangeListBox(ChangeEvent e){
 		MaterialToast.alert("Selected Index: " + lstOptions.getSelectedIndex());
 	}
-	
+
 	@UiHandler("cbBox")
 	void onCheckBox(ClickEvent e){
 		if(cbBox.getValue()){
@@ -47,7 +46,7 @@ public class MaterialForms extends Composite {
 			cbBox.setText("CheckBox 1: false");
 		}
 	}
-	
+
 	@UiHandler("cbBoxAll")
 	void onCheckAll(ClickEvent e){
 		if(cbBoxAll.getValue()){
@@ -64,7 +63,7 @@ public class MaterialForms extends Composite {
 			cbBrown.setValue(false);
 		}
 	}
-	
+
 	@UiHandler("switch1")
 	void onSwitch1(ClickEvent e){
 		if(switch1.getValue()){
@@ -73,7 +72,7 @@ public class MaterialForms extends Composite {
 			lblSwitch1.setText("Switch: false");
 		}
 	}
-	
+
 	@UiHandler("switch2")
 	void onSwitch2(ClickEvent e){
 		if(switch2.getValue()){
@@ -82,7 +81,7 @@ public class MaterialForms extends Composite {
 			lblSwitch2.setText("Switch: false");
 		}
 	}
-	
+
 	@UiHandler("range")
 	void onRange(ChangeEvent e){
 		lblRange.setText("Value: " + String.valueOf(range.getValue()));

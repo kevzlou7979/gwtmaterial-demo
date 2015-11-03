@@ -37,6 +37,11 @@
   <set-configuration-property name="gwtp.prebootstrapper"
                               value="nz.co.doltech.client.MyPreBootstrapper"/>
 
+  <!-- public resources -->
+  <public path="client/resources"/>
+
+  <stylesheet src="css/overrides.css"/>
+
   <!-- allow Super Dev Mode -->
   <add-linker name="xsiframe"/>
 </module>

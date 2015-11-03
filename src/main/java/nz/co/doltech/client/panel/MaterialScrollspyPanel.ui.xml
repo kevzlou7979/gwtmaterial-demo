@@ -57,7 +57,7 @@
 				</m:MaterialPanel>
 			</m:MaterialColumn>
 			<m:MaterialColumn grid="l2" addStyleNames="hide-on-small-only">
-				<m:MaterialScrollspy addStyleNames="pinned" backgroundColor="green">
+				<m:MaterialScrollspy addStyleNames="pinned" textColor="green">
 					<m:item>
 					<m:MaterialLink href="#topic1" text="Topic 1"/>
 					</m:item>
@@ -75,4 +75,4 @@
 		</m:MaterialRow>
 		</g:HTMLPanel>
 	</m:MaterialPanel>
-</ui:UiBinder> 
+</ui:UiBinder>

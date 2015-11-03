@@ -28,7 +28,6 @@ public class MaterialLoaders extends Composite {
 	void onShowLoader(ClickEvent e){
 		MaterialLoader.showLoading(true);
 		Timer t = new Timer() {
-			
 			@Override
 			public void run() {
 				MaterialLoader.showLoading(false);
@@ -41,7 +40,6 @@ public class MaterialLoaders extends Composite {
 	void onShowProgress(ClickEvent e){
 		MaterialLoader.showProgress(true);
 		Timer t = new Timer() {
-			
 			@Override
 			public void run() {
 				MaterialLoader.showProgress(false);
@@ -54,7 +52,6 @@ public class MaterialLoaders extends Composite {
 	void onShowNavBarProgress(ClickEvent e){
 		navBar.showLoader();
 		Timer t = new Timer() {
-			
 			@Override
 			public void run() {
 				navBar.hideLoader();
